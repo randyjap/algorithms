@@ -17,7 +17,7 @@ class BinaryMinHeap
   end
 
   def peek
-
+    @store[0]
   end
 
   def push(val)
