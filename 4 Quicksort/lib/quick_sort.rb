@@ -4,7 +4,7 @@ class QuickSort
 
   # Not in-place. Uses O(n) memory.
   def self.sort1(array)
-    return array if array.length <= 1
+    return array if array.length < 2
     left = []
     right = []
     pivot = array.shift
